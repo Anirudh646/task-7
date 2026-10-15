@@ -8,7 +8,7 @@ body {
 header {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 10px;
     background: white;
 }
@@ -61,6 +61,7 @@ button:hover {
 
 .banner {
     margin: 20px;
+    cursor: pointer;
 }
 
 .banner img {
@@ -73,6 +74,7 @@ button:hover {
     display: flex;
     justify-content: space-between;
     margin: 20px;
+    cursor: pointer;
 }
 
 .offers img {
@@ -85,6 +87,7 @@ button:hover {
     display: flex;
     overflow-x: scroll;
     margin: 20px;
+    cursor: pointer;
 }
 
 .categories img {
